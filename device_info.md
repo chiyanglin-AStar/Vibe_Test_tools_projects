@@ -1,6 +1,6 @@
 # Device Information Report
 
-**Generated:** 2026-02-10 13:31:24
+**Generated:** 2026-02-10 15:57:01
 
 ---
 
@@ -27,23 +27,23 @@ This report contains comprehensive information about the system device propertie
 | Physical Cores | `4` |
 | Logical Cores | `4` |
 | CPU Frequency (MHz) | `2496.011` |
-| Current CPU Usage | `19.1%` |
+| Current CPU Usage | `24.3%` |
 
 ### Per-Core CPU Usage
 
-- Core 0: `8.0%`
-- Core 1: `16.3%`
-- Core 2: `16.3%`
-- Core 3: `10.2%`
+- Core 0: `13.1%`
+- Core 1: `11.1%`
+- Core 2: `15.3%`
+- Core 3: `12.1%`
 
 ## 💾 Memory Information
 
 | Property | Value |
 |----------|-------|
 | Total RAM | `15.57 GB` |
-| Used RAM | `5.74 GB` |
-| Available RAM | `9.83 GB` |
-| Memory Usage | `36.9%` |
+| Used RAM | `6.48 GB` |
+| Available RAM | `9.09 GB` |
+| Memory Usage | `41.6%` |
 
 ## 🎮 GPU Information
 
@@ -58,9 +58,9 @@ This report contains comprehensive information about the system device propertie
 | Mount Point | `/` |
 | File System | `ext4` |
 | Total Space | `244.52 GB` |
-| Used Space | `151.6 GB` |
-| Free Space | `80.43 GB` |
-| Usage | `65.3%` |
+| Used Space | `151.66 GB` |
+| Free Space | `80.37 GB` |
+| Usage | `65.4%` |
 
 ### /dev/loop0
 
@@ -425,17 +425,17 @@ This report contains comprehensive information about the system device propertie
 | PID | Name | CPU % | Memory % |
 |-----|------|-------|----------|
 | `19735` | qemu-system-arm | `0.0%` | `10.072410338315015%` |
-| `1765` | gnome-shell | `0.0%` | `4.389399087276994%` |
-| `23693` | code | `0.0%` | `3.361495631128607%` |
-| `24038` | code | `0.0%` | `3.2380600104353197%` |
-| `20883` | firefox | `0.0%` | `2.6340362884557442%` |
+| `20883` | firefox | `0.0%` | `4.745008316410642%` |
+| `1765` | gnome-shell | `0.0%` | `4.708974619637507%` |
+| `23693` | code | `0.0%` | `4.269319426106426%` |
+| `23614` | code | `0.0%` | `3.35279953163543%` |
 
 ## 📅 System Uptime
 
 | Property | Value |
 |----------|-------|
-| Uptime | `0 days, 3 hours, 29 minutes` |
-| Total Uptime (seconds) | `12583` |
+| Uptime | `0 days, 5 hours, 55 minutes` |
+| Total Uptime (seconds) | `21320` |
 
 ## 🔌 API Reference
 

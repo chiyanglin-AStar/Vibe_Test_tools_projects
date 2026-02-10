@@ -1,0 +1,380 @@
+{
+  "test_id": "f32450a4-edbd-4a65-9ade-d7c2a5668bf7",
+  "test_name": "final_test",
+  "timestamp": "2026-02-10T16:12:51.864818",
+  "scan_data": {
+    "system": {
+      "platform": "Linux",
+      "platform_release": "6.8.0-94-generic",
+      "platform_version": "#96~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan 16 13:19:05 UTC 2",
+      "architecture": [
+        "64bit",
+        "ELF"
+      ],
+      "processor": "x86_64",
+      "python_version": "3.10.12",
+      "hostname": "ttt-virtual-machine"
+    },
+    "cpu": {
+      "physical_cores": 4,
+      "logical_cores": 4,
+      "cpu_freq_mhz": 2496.011,
+      "cpu_percent": 20.4,
+      "per_cpu_percent": [
+        14.1,
+        21.2,
+        17.2,
+        19.2
+      ]
+    },
+    "memory": {
+      "total_gb": 15.57,
+      "available_gb": 8.99,
+      "used_gb": 6.58,
+      "percent": 42.2
+    },
+    "gpu": {
+      "gpus": []
+    },
+    "disk": {
+      "/dev/sda3": {
+        "mountpoint": "/",
+        "fstype": "ext4",
+        "total_gb": 244.52,
+        "used_gb": 151.67,
+        "free_gb": 80.37,
+        "percent": 65.4
+      },
+      "/dev/loop0": {
+        "mountpoint": "/snap/bare/5",
+        "fstype": "squashfs",
+        "total_gb": 0.0,
+        "used_gb": 0.0,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop2": {
+        "mountpoint": "/snap/code/221",
+        "fstype": "squashfs",
+        "total_gb": 0.33,
+        "used_gb": 0.33,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop1": {
+        "mountpoint": "/snap/code/220",
+        "fstype": "squashfs",
+        "total_gb": 0.32,
+        "used_gb": 0.32,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop3": {
+        "mountpoint": "/snap/core20/2686",
+        "fstype": "squashfs",
+        "total_gb": 0.06,
+        "used_gb": 0.06,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop4": {
+        "mountpoint": "/snap/core18/2976",
+        "fstype": "squashfs",
+        "total_gb": 0.05,
+        "used_gb": 0.05,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop6": {
+        "mountpoint": "/snap/core22/2292",
+        "fstype": "squashfs",
+        "total_gb": 0.07,
+        "used_gb": 0.07,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop7": {
+        "mountpoint": "/snap/core22/2111",
+        "fstype": "squashfs",
+        "total_gb": 0.07,
+        "used_gb": 0.07,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop5": {
+        "mountpoint": "/snap/core18/2979",
+        "fstype": "squashfs",
+        "total_gb": 0.05,
+        "used_gb": 0.05,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop8": {
+        "mountpoint": "/snap/firefox/7355",
+        "fstype": "squashfs",
+        "total_gb": 0.24,
+        "used_gb": 0.24,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop9": {
+        "mountpoint": "/snap/firefox/7720",
+        "fstype": "squashfs",
+        "total_gb": 0.25,
+        "used_gb": 0.25,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop10": {
+        "mountpoint": "/snap/core20/2599",
+        "fstype": "squashfs",
+        "total_gb": 0.06,
+        "used_gb": 0.06,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop13": {
+        "mountpoint": "/snap/gtk-common-themes/1535",
+        "fstype": "squashfs",
+        "total_gb": 0.09,
+        "used_gb": 0.09,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop12": {
+        "mountpoint": "/snap/gnome-42-2204/247",
+        "fstype": "squashfs",
+        "total_gb": 0.52,
+        "used_gb": 0.52,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop11": {
+        "mountpoint": "/snap/gnome-42-2204/202",
+        "fstype": "squashfs",
+        "total_gb": 0.5,
+        "used_gb": 0.5,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop14": {
+        "mountpoint": "/snap/snap-store/1113",
+        "fstype": "squashfs",
+        "total_gb": 0.01,
+        "used_gb": 0.01,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop15": {
+        "mountpoint": "/snap/snap-store/1216",
+        "fstype": "squashfs",
+        "total_gb": 0.01,
+        "used_gb": 0.01,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop16": {
+        "mountpoint": "/snap/snapd/25202",
+        "fstype": "squashfs",
+        "total_gb": 0.05,
+        "used_gb": 0.05,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop18": {
+        "mountpoint": "/snap/snapd-desktop-integration/315",
+        "fstype": "squashfs",
+        "total_gb": 0.0,
+        "used_gb": 0.0,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop20": {
+        "mountpoint": "/snap/terminology/1279",
+        "fstype": "squashfs",
+        "total_gb": 0.07,
+        "used_gb": 0.07,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop17": {
+        "mountpoint": "/snap/snapd/25935",
+        "fstype": "squashfs",
+        "total_gb": 0.05,
+        "used_gb": 0.05,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/loop19": {
+        "mountpoint": "/snap/snapd-desktop-integration/343",
+        "fstype": "squashfs",
+        "total_gb": 0.0,
+        "used_gb": 0.0,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/sda2": {
+        "mountpoint": "/boot/efi",
+        "fstype": "vfat",
+        "total_gb": 0.5,
+        "used_gb": 0.01,
+        "free_gb": 0.49,
+        "percent": 1.2
+      },
+      "/dev/sr0": {
+        "mountpoint": "/media/ttt/CDROM",
+        "fstype": "iso9660",
+        "total_gb": 0.15,
+        "used_gb": 0.15,
+        "free_gb": 0.0,
+        "percent": 100.0
+      },
+      "/dev/sr1": {
+        "mountpoint": "/media/ttt/Ubuntu 22.04.5 LTS amd64",
+        "fstype": "iso9660",
+        "total_gb": 4.44,
+        "used_gb": 4.44,
+        "free_gb": 0.0,
+        "percent": 100.0
+      }
+    },
+    "network": {
+      "lo": [
+        {
+          "family": "AF_INET",
+          "address": "127.0.0.1",
+          "netmask": "255.0.0.0",
+          "broadcast": null
+        },
+        {
+          "family": "AF_INET6",
+          "address": "::1",
+          "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+          "broadcast": null
+        },
+        {
+          "family": "AF_PACKET",
+          "address": "00:00:00:00:00:00",
+          "netmask": null,
+          "broadcast": null
+        }
+      ],
+      "ens33": [
+        {
+          "family": "AF_INET",
+          "address": "192.168.46.221",
+          "netmask": "255.255.255.0",
+          "broadcast": "192.168.46.255"
+        },
+        {
+          "family": "AF_INET6",
+          "address": "fe80::bd86:cec0:3cd1:2846%ens33",
+          "netmask": "ffff:ffff:ffff:ffff::",
+          "broadcast": null
+        },
+        {
+          "family": "AF_PACKET",
+          "address": "00:0c:29:67:7c:da",
+          "netmask": null,
+          "broadcast": "ff:ff:ff:ff:ff:ff"
+        }
+      ],
+      "virbr0": [
+        {
+          "family": "AF_INET",
+          "address": "192.168.122.1",
+          "netmask": "255.255.255.0",
+          "broadcast": "192.168.122.255"
+        },
+        {
+          "family": "AF_PACKET",
+          "address": "52:54:00:3b:cc:83",
+          "netmask": null,
+          "broadcast": "ff:ff:ff:ff:ff:ff"
+        }
+      ],
+      "br0": [
+        {
+          "family": "AF_PACKET",
+          "address": "0e:41:6f:87:40:06",
+          "netmask": null,
+          "broadcast": "ff:ff:ff:ff:ff:ff"
+        }
+      ]
+    },
+    "process": {
+      "top_cpu": [
+        {
+          "pid": 1,
+          "name": "systemd",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.08152287074166706
+        },
+        {
+          "pid": 2,
+          "name": "kthreadd",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.0
+        },
+        {
+          "pid": 3,
+          "name": "pool_workqueue_release",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.0
+        },
+        {
+          "pid": 4,
+          "name": "kworker/R-rcu_g",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.0
+        },
+        {
+          "pid": 5,
+          "name": "kworker/R-rcu_p",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.0
+        }
+      ],
+      "top_memory": [
+        {
+          "pid": 19735,
+          "name": "qemu-system-arm",
+          "cpu_percent": 0.0,
+          "memory_percent": 10.072410338315015
+        },
+        {
+          "pid": 20883,
+          "name": "firefox",
+          "cpu_percent": 0.0,
+          "memory_percent": 5.071565224420607
+        },
+        {
+          "pid": 1765,
+          "name": "gnome-shell",
+          "cpu_percent": 0.0,
+          "memory_percent": 4.810584255405667
+        },
+        {
+          "pid": 23693,
+          "name": "code",
+          "cpu_percent": 0.0,
+          "memory_percent": 4.726930227886799
+        },
+        {
+          "pid": 23614,
+          "name": "code",
+          "cpu_percent": 0.0,
+          "memory_percent": 3.884976324562929
+        }
+      ]
+    },
+    "uptime": {
+      "boot_timestamp": 1770688901.0,
+      "uptime_days": 0,
+      "uptime_hours": 6,
+      "uptime_minutes": 11,
+      "uptime_seconds": 22270
+    }
+  },
+  "filename": "final_test_20260210_161251_f32450a4.json"
+}
